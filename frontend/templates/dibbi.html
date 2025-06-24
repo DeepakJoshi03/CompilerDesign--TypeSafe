@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini C Compiler</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>TypeSafe- A Static Typechecker and Error Detector</h1>
+            <p>Complete Lexical Analysis → Syntax Analysis → Semantic Analysis → Code Generation</p>
+        </div>
+
+        <div class="main-content">
+            <div class="panel">
+                <div class="panel-header">
+                    📝 C Source Code Editor
+                </div>
+                <textarea id="codeInput" class="code-area" placeholder="Enter your C code here...">int main() {
+    int x = 10;
+    int y = 20;
+    int sum = x + y;
+    printf("Sum: %d", sum);
+    return 0;
+}</textarea>
+                <div class="controls">
+                    <button class="btn btn-primary" onclick="compileCode()">🔥 Compile & Run</button>
+                    <button class="btn btn-secondary" onclick="clearCode()">🧹 Clear</button>
+                    <button class="btn btn-secondary" onclick="analyzeOnly()">🔍 Analyze Only</button>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-header">
+                    📊 Compiler Output & Analysis
+                </div>
+                <div id="output" class="output-area">Ready to compile! Enter your C code and click 'Compile & Run'.</div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>

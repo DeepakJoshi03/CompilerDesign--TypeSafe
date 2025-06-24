@@ -1,0 +1,45 @@
+first
+void x;
+
+
+second
+int main() {
+    x = 10;
+    return 0;
+}
+
+
+
+third
+int main() {
+    int x = 5
+    return 0;
+}
+
+
+fourth
+int main() {
+    int x = 10;
+    int y = 
+    int sum = x + y;
+    printf("Sum: %d", sum);
+    return 0;
+}
+
+
+fifth
+int total = amount + 10;
+
+
+sixth
+int main() {
+    int a = 10;
+    float b = 20.5;
+    int d = a + b;;  // type mismatch warning
+    printf("Result: %d", d);
+    return 0;
+}
+
+
+seventh
+
